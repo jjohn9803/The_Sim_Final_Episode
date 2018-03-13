@@ -1,0 +1,134 @@
+.Menu{
+	margin: -8px -24px 0 -8px;
+	padding-left: 7.25px;
+	padding-right: 7.25px;
+	background-color: #323232;
+	overflow: hidden;
+	list-style-type: none;
+}
+
+.Menu a{
+	padding: 15px 10.2% 15px 10.4%;
+	text-decoration: none;
+	color: white;
+	float: left;
+	font-size: 20px;
+	font-family: arial;
+}
+
+.Menu a:hover{
+	background-color: grey;
+	color:black;
+}
+
+.Download{
+	background-image: url("Home1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin: 0px -8px 0px -8px;
+}
+
+.Download a{
+	float: right;
+	margin-top: -30px;
+	padding-right: 8%;
+}
+
+.Intro{
+	background-image: url("Home2.jpg");
+	background-repeat: no-repeat;
+	background-size: 50%;
+	margin: -4px -8px 0 -10px;
+}
+
+.Intro span{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: bold;
+	float: right;
+	font-size: 14px;
+	color:orangered;
+}
+
+.Video{
+	margin: 3px 0px 0px 0px;
+}
+
+footer{
+	margin: -4px -8px 0px -8px;
+}
+
+table,tr,th,td{
+	background-color: darkred;
+	margin: 5px 0px 0px 140px;
+}
+
+td{
+	font-size: 20px;
+	color: pink;
+}
+
+.Menu .icon{
+	display: none;
+}
+
+.HeroIcon table,th,tr,fieldset{
+	margin: 5% 10% 5% 17%;
+	padding: 0 10% 0 5%;
+}
+
+.HeroIconP table,th,tr,fieldset{
+	margin: 5% 50% 5% 20%;
+	padding: 0 10% 0 5%;
+}
+
+.HeroIconP{
+	display: none;
+}
+
+@media screen and (max-width: 1300px)
+{
+	.Menu a{
+		display: none;
+	}
+	.Menu a.icon{
+		float: right;
+		display: block;
+	}
+	.Intro{
+		background-size: 100%;
+	}
+	.Intro span{
+		display: none;
+	}
+	.HeroIcon{
+		display: none;
+	}
+	.HeroIcon table{
+		display: none;
+	}
+	
+	.HeroIconP{
+	    display: block;
+    }
+    .HeroIconP table{
+    	display: block;
+    }
+}
+
+@media screen and (max-width: 1300px){
+	.Menu.responsive{
+		position: relative;
+	}
+	.Menu.responsive .icon{
+		position: relative;
+		right: 0;
+		top: 0;
+		left: 20px;
+	}
+	.Menu.responsive a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
+
